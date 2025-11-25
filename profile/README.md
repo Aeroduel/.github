@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://aeroduel.github.io/">
-    <img src="two-jets-logo.svg" alt="Aeroduel Logo" width="800" />
+    <img src="/profile/two-jets-logo.svg" alt="Aeroduel Logo" width="800" />
   </a>
   <br />
   <hr/>
@@ -81,10 +81,10 @@
   <h2>Our Apps</h2>
 
   <a href="https://github.com/Aeroduel/server">
-    <img src="logo_text.svg" alt="Aeroduel" width="300" />
+    <img src="/profile/logo_text.svg" alt="Aeroduel" width="300" />
   </a>
   <br />
-  <img src="server-text.svg" alt="Server" width="115" />
+  <img src="/profile/server-text.svg" alt="Server" width="115" />
   <br />
   <h1>Aeroduel Local Server</h1>
   <p>
@@ -94,7 +94,7 @@
   <hr/>
 
   <a href="https://github.com/Aeroduel/mobile">
-    <img src="aero-duel-jet-left-logo.svg" alt="Aeroduel" width="300" />
+    <img src="/profile/aero-duel-jet-left-logo.svg" alt="Aeroduel" width="300" />
   </a>
   <br />
   <h1>Aeroduel Mobile App</h1>
