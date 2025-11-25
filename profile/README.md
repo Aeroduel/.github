@@ -10,7 +10,7 @@
 
 <h2>What is Aeroduel?</h2>
   <p>Aeroduel merges cutting-edge software engineering with RC model aircraft to
-     create the an advanced aerial combat system for RC aircraft.</p>
+     create an advanced aerial combat system for RC aircraft.</p>
   <p>We're equipping high-performance RC fighter jets with camera systems that 
      automatically detect targets equipped with Aeroduel detection lights. This
      allows aircraft to use advanced computer vision to lock onto targets and 
@@ -25,21 +25,21 @@
      installed, as well as the proper Aeroduel equipment installed on their 
      plane of choice.</p>
 
-  <h2>How it Works</h2>
+<h2>How it Works</h2>
 
-  <h3>Hosting the Match Server</h3>
+<h3>Hosting the Match Server</h3>
   <p>One person installs the Aeroduel Server desktop app, available for Windows,
-     MacOS, and Linux. This user connects to a WFi network (may be a mobile
+     MacOS, and Linux. This user connects to a WiFi network (may be a mobile
      hotspot) and creates a new match.</p>
 
-  <h3>Joining the Match</h3>
+<h3>Joining the Match</h3>
   <p>Participating players register for the match with the Aeroduel mobile app
      by either scanning a QR code or inputting a game PIN. When all players have
      joined, the host may start the match with a single click.</p>
 
-  <h3>Behind the Scenes</h3>
+<h3>Behind the Scenes</h3>
   <p>Onboard each plane is a computer vision camera, several LED lights, a LoRa
-     WiFI receiver, and an ESP32 arduino. When the camera detects the color
+     WiFi receiver, and an ESP32 arduino. When the camera detects the color
      pattern of a participating plane, it locks on for several seconds. If
      it can maintain that lock for several seconds, it registers a hit, sending
      a signal to the server, which then sends an updated score to the mobile app.
@@ -48,7 +48,7 @@
      WebSocket connection, allowing for low-latency communication between the
      entire system during the match.</p>
 
-  <h3>Game Rules</h3>
+<h3>Game Rules</h3>
   <p>The match timer begins when all planes have taken off. Pilots then attempt
      to lock on to other planes by keeping them within view of the cockpit. When
      a solid lock is initiated, the game simulates a shot and logs a hit, giving
@@ -59,8 +59,8 @@
   <p>When the timer ends, all pilots must take turns landing. The pilot with
      the most points wins the match.</p>
 
-  <h2>Our Team</h2>
-  <p>We are a team of 5 students from Atlas School, Tulsa. We are currently 
+<h2>Our Team</h2>
+  <p>We are a team of five students from Atlas School, Tulsa. We are currently 
      working on our promotional website, desktop server app, and mobile app, 
      in addition to building and testing our RC fighter jets.</p>
   <ul>
@@ -71,7 +71,7 @@
     <li><a href="https://github.com/Frandy4ever">Frandy Slueue</a></li>
   </ul>
 
-  <h2>Project Timeline</h2>
+<h2>Project Timeline</h2>
   <p>An exact date of completion is not yet known, however, a demo will be 
      available by Thursday, December 11th, 2025.</p>
 </div>
@@ -82,9 +82,9 @@
 
   <a href="https://github.com/Aeroduel/server">
     <img src="https://raw.githubusercontent.com/Aeroduel/graphics/b1b8386ca8803025cd5e52ef84030ab92cceb4ab/logo-art/svg/logo-text.svg?token=AVRZET6HYWNYF2NP7F4Z66DJEYM42" alt="Aeroduel" width="300" />
-  </a>
   <br />
   <img src="https://raw.githubusercontent.com/Aeroduel/graphics/b1b8386ca8803025cd5e52ef84030ab92cceb4ab/logo-art/svg/server-text.svg?token=AVRZET3I2SKC5R46MGYUKSDJEYM6C" alt="Server" width="115" />
+  </a>
   <br />
   <h1>Aeroduel Local Server</h1>
   <p>
@@ -101,6 +101,30 @@
   <p>
     <strong>The mobile app for joining matches</strong>
   </p>
+
+  <hr/>
+
+<h2>FAQ</h2>
+  <ul>
+    <li><strong>Do the planes fly autonomously?</strong>
+      <p>No. Humans have to pilot the planes. This requires skill and should not
+         be attempted by someone who has never flown an RC plane before.</p>
+    </li>
+    <li><strong>How do you plan to profit from this?</strong>
+      <p>Our main goal is to build something cool that others can expand on or
+         enjoy out of the box. While we are less focused on profit and haven't
+         decided if/how to market Aeroduel, we may sell kits for users to 3D
+         print planes and install required hardware on them. We may also simply
+         provide a free list of the parts and 3D jet model we used and leave it
+         up to the users to customize and buy their parts.</p></li>
+    <li><strong>Does this have to work with planes, or can it work on RC cars
+                and other vehicles too?</strong>
+      <p>While the goal is to work with RC planes, it should just as easily
+         work on RC cars and other remote-controlled vehicles. You can even
+         build your own equipment to improve on ours and, for example, simulate
+         surface to air combat with custom-built turrets. The possibilities are
+         endless.</p></li>
+  </ul>
 
   <hr/>
 
