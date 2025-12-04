@@ -60,7 +60,7 @@
      the most points wins the match.</p>
 
 <h2>Our Team</h2>
-  <p>We are a team of five students from Atlas School, Tulsa. We are currently 
+  <p>We are a team of four students from Atlas School, Tulsa. We are currently 
      working on our promotional website, desktop server app, and mobile app, 
      in addition to building and testing our RC fighter jets.</p>
   <ul>
@@ -124,6 +124,11 @@
          surface to air combat with custom-built turrets. The possibilities are
          endless.</p></li>
   </ul>
+
+  <h2>Project Materials</h2>
+  <p>
+    <a href="https://share-a-cart.com/get/E549G">Click here</a> to view everything we used for our project in one cart.
+  </p>
 
   <hr/>
 
