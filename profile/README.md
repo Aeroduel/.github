@@ -34,8 +34,8 @@
 
 <h3>Joining the Match</h3>
   <p>Participating players register for the match with the Aeroduel mobile app
-     by either scanning a QR code or inputting a game PIN. When all players have
-     joined, the host may start the match with a single click.</p>
+     just by clicking a button. When all players have joined, the host may start 
+     the match with a single click.</p>
 
 <h3>Behind the Scenes</h3>
   <p>Onboard each plane is a computer vision camera, several LED lights, a LoRa
@@ -68,7 +68,6 @@
     <li><a href="https://github.com/Zytronium">"Zytronium"</a></li>
     <li><a href="https://github.com/TebariousBag">Tristan Davis</a></li>
     <li><a href="https://github.com/zack6yuan">Zack Yuan</a></li>
-    <li><a href="https://github.com/Frandy4ever">Frandy Slueue</a></li>
   </ul>
 
 <h2>Project Timeline</h2>
@@ -128,5 +127,5 @@
 
   <hr/>
 
-  <p>For more information, visit our website at <a href="https://aeroduel.github.io/">aeroduel.github.io</a></p>
+  <p>For more information, visit our website at <a href="https://aeroduel.com/">aeroduel.com</a></p>
 </div>
